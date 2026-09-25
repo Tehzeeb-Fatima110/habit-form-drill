@@ -1,0 +1,5 @@
+# Project Rules: Form & UI Components
+
+1. **Strict Form Accessibility:** All form inputs MUST have explicit `htmlFor` attributes linking them to their respective labels. Do not rely solely on placeholder text or wrapping labels without IDs.
+2. **Mandatory Client-Side Validation:** Never submit a form to the database without validating required fields and schemas on the client side first.
+3. **Inline Error Handling:** Validation error messages must be rendered inline directly below the corresponding input field, and they must include the `aria-live="polite"` attribute for screen reader support. Browser native alerts (`alert()`) are strictly forbidden.

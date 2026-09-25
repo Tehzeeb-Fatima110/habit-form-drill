@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Habit Form - AI Prompt Workflow Drill
 
-## Getting Started
+Welcome to my AI Prompt Workflow capstone project! This repository demonstrates the profound impact of **Prompt Engineering** when generating code with AI tools (like Cursor or GitHub Copilot). 
 
-First, run the development server:
+By comparing two different approaches, this project highlights how precise instructions lead to production-ready, accessible, and bug-free code compared to vague requests.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📂 Repository Structure & Deliverables
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **`main` branch**: Contains the base Next.js setup, documentation (`README.md`, `WORKFLOW.md`), and project constraints (`.cursorrules`).
+- **`feature/habit-form-v1` branch**: Contains the code generated using a **Vague Prompt**. (Lacks validation, proper state management, and accessibility).
+- **`feature/habit-form-v2` branch**: Contains the code generated using a **Precise, Engineered Prompt**. (Includes strict enum validation, `aria-live` accessibility, and controlled React states).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Key Documents
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [`WORKFLOW.md`](./WORKFLOW.md): A detailed comparison of the code diffs, edge cases handled, and AI mistakes caught during the drill.
+- [`.cursorrules`](./.cursorrules): 3 concrete, testable project rules established after analyzing the failures of Round 1.
 
-## Learn More
+## 🚀 How to Run Locally
 
-To learn more about Next.js, take a look at the following resources:
+If you want to test the form locally on your machine, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Tehzeeb-Fatima110/habit-form-drill.git](https://github.com/Tehzeeb-Fatima110/habit-form-drill.git)
+   cd habit-form-drill
